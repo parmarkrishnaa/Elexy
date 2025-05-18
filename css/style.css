@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,12 +6,13 @@
 
 /* header section start */
 
-.nav .dropdown a, .icons ul li a i{
+.nav .dropdown a,
+.icons ul li a i {
     color: #f5f5f5bf;
     font-size: 16px;
 }
 
-.nav .dropdown a i{
+.nav .dropdown a i {
     font-size: 10px;
 }
 
@@ -21,53 +22,53 @@
 
 /* banner section start */
 
-.banner{
+.banner {
     background-color: #1a151b;
 }
 
-.banner .content{
+.banner .content {
     top: 25%;
     left: 2%;
 }
 
-.banner .content span{
+.banner .content span {
     font-size: 20px;
     letter-spacing: 4px;
     line-height: 1;
 }
 
-.banner .content h2{
+.banner .content h2 {
     color: white;
     font-size: 70px;
     letter-spacing: 4px;
     line-height: 1.2;
 }
 
-.banner .content .button{
+.banner .content .button {
     transition: 0.8s;
 }
 
-.banner .content .button a:hover{
+.banner .content .button a:hover {
     background-color: white;
     color: black;
     transform: translateY(-2px);
 }
 
-.banner .content .button .view{
+.banner .content .button .view {
     color: white;
 }
 
-.banner .content .button .view:hover{
+.banner .content .button .view:hover {
     background-color: white;
     color: black;
     transform: translateY(-2px);
 }
 
-.banner .card img{
+.banner .card img {
     transition: 0.8s;
 }
 
-.banner .card:hover img{
+.banner .card:hover img {
     transform: scale(1.1);
 }
 
@@ -75,11 +76,11 @@
 
 /* category section start */
 
-.category .item img{
+.category .item img {
     transition: 0.8s;
 }
 
-.category .item img:hover{
+.category .item img:hover {
     transform: scale(0.9);
 }
 
@@ -87,24 +88,49 @@
 
 /* product section start */
 
-.product .conatiner-fluid{
+.product .conatiner-fluid {
     padding-left: 18px;
     padding-right: 18px;
+    margin-bottom: 100px;
 }
 
-.product .title button{
+.product .title button {
     color: black;
     padding: 0px 35px;
     font-size: 16px;
     transition: 0.5s;
 }
 
-.product .title button:hover{
+.product .title button:hover {
     background-color: black;
     color: white;
     transform: translateY(-2px);
 }
 
+.product .card {
+    box-shadow: 0px 4px 5px rgba(18, 18, 18, 0.08);
+    transition: 0.5s;
+}
+
+.product .card:hover {
+    box-shadow: 0px 0px 6px 3px rgba(212, 201, 201, 0.78);
+    -webkit-box-shadow: 0px 0px 6px 3px rgba(212, 201, 201, 0.78);
+    -moz-box-shadow: 0px 0px 6px 3px rgba(212, 201, 201, 0.78);
+}
+
 /* product section end */
+
+/* offer section start */
+
+.offer .card img {
+    transition: 0.8s;
+}
+
+.offer .card:hover img {
+    transform: scale(1.1);
+}
+
+
+/* offer section end */
 
 /* main section end */
